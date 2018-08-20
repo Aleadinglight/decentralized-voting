@@ -1,4 +1,4 @@
-# decentralized-voting
+# Decentralized Voting
 
 Implement decentralized voting with Solidity. Following the tutorials and ideas from decentralized-app coders.
 
@@ -12,7 +12,7 @@ At the end of the voting time, winningProposal() will return the proposal with t
 
 [Source codes](../master/Voting.sol)
 
-```sol
+```c++
 pragma solidity ^0.4.24;
 
 contract Ballot{
