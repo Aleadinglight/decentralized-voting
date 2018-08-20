@@ -121,7 +121,7 @@ contract Ballot{
         proposals[proposal].voteCount += sender.weight;
     }
     
-    // The winner
+    // Return the winner index
     function winningProposal() public view 
         returns(uint winningProposal_)
     {
